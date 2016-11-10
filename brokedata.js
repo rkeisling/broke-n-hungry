@@ -3,72 +3,128 @@ var skillsdata;
 skillsdata = {
   "Skills": {
     "McDonald's": {
-      "Protocol": {
-        "Propose": [100],
-        "USSD": [0],
-        "UAP": [0],
-        "Socket Raw": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 50, 50, 50, 70, 80]
+      "Main": {
+        "Chicken": {
+          'Grilled Chicken Sandwich': [25],
+          'McChicken': [25],
+          'Chicken Nuggets': [25]
+        },
+        "Beef": {
+          'McDouble': [25],
+          'Big Mac': [25],
+          'Quarter Pounder': [25],
+          'Cheeseburger': [25],
+          'Burger': [25]
+        },
+        "Other": {
+          'Filet-O-Fish': [25],
+          'Salad': [25]
+        }
       },
-      "Optimization": {
-        "Performance": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 40, 40, 50, 50, 50],
-        "Distribute": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 10, 10, 40, 50, 50],
-        "Stability": [0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 50, 60, 70, 80, 90]
+      "Sides": {
+        "Fries": {
+          'Small': [25],
+          'Medium': [25],
+          'Large': [25]
+        },
+        "Side Salad": [50],
+        "Apple Slices": [25]
       },
-      "UI": {
-        "WinForm": [0, 0, 20, 40, 50, 50, 50, 50, 60, 80, 90, 95, 95, 95, 95],
-        "WPF": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 50],
-        "GDI": [0, 0, 0, 0, 0, 40, 50, 40, 40, 30, 30, 20, 20, 10, 5],
-        "DX": [0, 0, 0, 0, 0, 10, 50, 50, 40, 40, 30, 20, 10, 10, 5],
-        "Flash": [0, 0, 10, 30, 40, 50, 50, 40, 30, 20, 10, 5, 5, 5, 5]
+      "Drinks": {
+        "Fountain Drink": {
+          'Small': [25],
+          'Medium': [25],
+          'Large': [25]
+        },
+        "Tea": {
+          'Small': [25],
+          'Medium': [25],
+          'Large': [25]
+        },
+        "Other": {
+          'Bottled Water': [25],
+          'Apple Juice': [25],
+          'McCafe': [25],
+          'Chocolate Milk': [25]
+        }
       },
-      "Algorithm": {
-        "Image Processing": [0, 0, 0, 0, 0, 0, 0, 10, 30, 50, 50, 50, 45, 45, 40],
-        "Face recognition": [0, 0, 0, 0, 0, 0, 0, 10, 40, 70, 60, 50, 40, 40, 40]
+      "Deserts": {
+        'McFlurry': [25],
+        'Cookie': [25],
+        'Vanilla Cone': [25],
+        'Hot Fudge Sundae': [25],
+        'Baked Apple Pie': [25]
       }
     },
     "Wendy's": {
-      "Server Side": {
-        "Active Page": {
-          "ASP": [0, 0, 10, 30, 60, 60, 40, 20, 20, 20, 20, 20, 20, 20, 20],
-          "ASP.Net": [0, 0, 0, 0, 0, 0, 10, 30, 70, 80, 90, 90, 90, 90, 90]
+      "Main": {
+        "Chicken": {
+          'Chicken Sandwich': {
+            'Crispy': [25],
+            'Spicy': [25],
+            'Grilled': [25]
+          },
+          'Chicken Wrap': {
+            'Grilled': [25],
+            'Spicy': [25]
+          },
+          'Chicken Nuggets': {
+            'Regular': [25],
+            'Spicy': [25]
+          }
         },
-        "Node.js": {
-          "express": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30],
-          "npm": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 40]
-        },
-        "DB": {
-          "SqlServer": [0, 0, 0, 0, 0, 10, 20, 40, 40, 40, 60, 90, 90, 90, 80],
-          "Sqlite": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30, 20],
-          "Mongo": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 30]
-        },
-        "Server": {
-          "IIS": [0, 10, 10, 30, 40, 40, 40, 60, 70, 70, 80, 80, 80, 80, 80],
-          "Apache": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10, 20, 40]
-        },
-        "API": {
-          "OAuth2.0": [0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 40, 40, 40, 30, 30],
-          "WeChat": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 30],
-          "Propose": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 40, 30]
+        "Beef": {
+          "Dave's Burger": {
+            'Single': [25],
+            'Double': [25]
+          },
+          'Baconator': [25],
+          'Son of Baconator': [25],
+          'Cheeseburger': [25],
+          'Hamburger': [25]
         }
       },
-      "Front Side": {
-        "HTML": [0, 0, 10, 30, 50, 50, 60, 80, 90, 60, 50, 30, 30, 30, 40],
-        "CSS": {
-          "CSS": [0, 0, 10, 30, 50, 50, 60, 80, 85, 60, 50, 30, 20, 20, 30],
-          "LESS": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30],
-          "Responsive": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20]
+      "Sides": {
+        "Fries": {
+          'Small': [25],
+          'Medium': [25],
+          'Large': [25]
         },
-        "JSFramework": {
-          "jQuery": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20, 30, 30, 25, 30],
-          "ExtJs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 30, 30],
-          "BackboneJs": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 10],
-          "D3.js": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
-          "Rapheal": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
-          "kinetic": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20]
+        "Side Salad": {
+          'Garden': [25],
+          'Caesar': [25]
         },
-        "Template": {
-          "Jade": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 20],
-          "Razor": [0, 0, 0, 0, 0, 0, 0, 0, 0, 40, 50, 60, 80, 80, 80]
+        "Baked Potato": [25],
+        'Chili': [25]
+      },
+      "Drinks": {
+        "Fountain Drink": {
+          'Small': [25],
+          'Medium': [25],
+          'Large': [25]
+        },
+        "Tea": {
+          'Small': [25],
+          'Medium': [25],
+          'Large': [25]
+        },
+        "Other": {
+          'Water': [25],
+          'Coffee': [25]
+        }
+      },
+      "Deserts": {
+        'Frosty': {
+          'Chocolate': {
+            'Small': [25],
+            'Medium': [25],
+            'Large': [25]
+          },
+          'Vanilla': {
+            'Small': [25],
+            'Medium': [25],
+            'Large': [25]
+          }
         }
       }
     },
