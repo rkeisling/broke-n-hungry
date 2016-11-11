@@ -12,8 +12,7 @@ skillsdata = {
         "Beef": {
           'McDouble': [25],
           'Double Cheeseburger': [25],
-          'Bacon McDouble': [25],
-          'Grilled Onion Cheddar Burger': [25]
+          'Bacon McDouble': [25]
         },
         "Other": {
           'Salad': [25],
