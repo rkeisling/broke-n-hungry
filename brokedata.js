@@ -74,12 +74,9 @@ skillsdata = {
           }
         },
         "Beef": {
-          "Dave's Burger": {
-            'Single': [25],
-            'Double': [25]
-          },
-          'Baconator': [25],
-          'Son of Baconator': [25],
+          'Jr. Cheeseburger Deluxe': [25],
+          'Jr. Bacon Cheeseburger': [25],
+          'Double Stack': [25],
           'Cheeseburger': [25],
           'Hamburger': [25]
         }
@@ -94,7 +91,6 @@ skillsdata = {
           'Garden': [25],
           'Caesar': [25]
         },
-        "Baked Potato": [25],
         'Chili': [25]
       },
       "Drinks": {
@@ -133,34 +129,25 @@ skillsdata = {
         "Tacos": {
           'Doritos Locos Taco': {
             'Nacho Cheese': [25],
-            'Fiery': [25],
             'Cool Ranch': [25]
           },
           'Soft Taco': {
             'Grilled': [25],
             'Spicy': [25]
           },
-          'Crunchy Taco': {
-            'Beef': [25],
-            'Chicken': [25]
-          }
         },
         "Burritos": {
-          "Bean Burrito": [25],
-          'Chicken Burrito': [25],
-          'Beefy Nacho Burrito': [25],
+          'Cheesy Bean & Rice Burrito': [25],
+          'Beefy Fritos Burrito': [25],
           'Loaded Potato Griller': [25]
         },
         'Other': {
-          'Nachos Supreme': [25],
-          'Mexican Pizza': [25],
-          'Quesadilla': [25]
+          'Beefy Quesadilla': [25],
+          'Chicken Quesadilla': [25]
         }
       },
       "Sides": {
         "Chips & Cheese": [25],
-        "Chips & Pico de Gallo": [25],
-        "Chips & Guacamole": [25],
         'Chips & Salsa': [25],
         'Doritos': [25]
       },
@@ -181,29 +168,10 @@ skillsdata = {
         }
       },
       "Deserts": {
-        'Freezes': {
-          'Airheads White Freeze': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          },
-          'Starburst Freeze': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          },
-          'Baja Blast': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          }
-        },
-        'Other': {
           'Cinnabon Delights': [25],
           'Cinnamon Twist': [25],
           'Caramel Apple Empanada': [25]
         }
-      }
     },
     "Sonic": {
       "Main": {
