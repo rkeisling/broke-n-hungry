@@ -87,13 +87,8 @@ skillsdata = {
     "Taco Bell": {
       "Main": {
         "Tacos": {
-          'Soft Taco': {
-            'Spicy Potato': [25]
-          },
-          'Crunchy Taco': {
-            'Beef': [25],
-            'Chicken': [25]
-          }
+          'Soft Taco': [25],
+          'Hard Taco': [25]
         },
         "Burritos": {
           "Cheesy Burrito": [25],
