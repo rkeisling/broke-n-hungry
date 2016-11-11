@@ -159,20 +159,8 @@ skillsdata = {
         }
       },
       "Deserts": {
-        'Shakes': {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
-        'Blasts': {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
-        'Other': {
-          'Molten Cake': [25],
-          'Hot Fudge Sundae': [25]
-        }
+        'Shakes': [25],
+        'Blasts': [25],
       }
     }
   }
