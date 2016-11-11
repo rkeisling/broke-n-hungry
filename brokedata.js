@@ -6,8 +6,8 @@ skillsdata = {
       "Main": {
         "Chicken": {
           'McChicken': [25],
-          '4Pc. Chicken Nuggets': [25],
-          '20Pc. Chicken Nuggets': [25]
+          '4Pc. Nuggets': [25],
+          '20Pc. Nuggets': [25]
         },
         "Beef": {
           'McDouble': [25],
@@ -28,17 +28,9 @@ skillsdata = {
         },
       },
       "Drinks": {
-        "Fountain Drink": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
-        "Tea": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
-        "Other Drinks": {
+        "Fountain Drink": [25],
+        "Tea": [25],
+        "Other": {
           'Bottled Water': [25],
           'Apple Juice': [25],
           'McCafe': [25],
@@ -46,33 +38,21 @@ skillsdata = {
         }
       },
       "Deserts": {
-        '3 Cookie': [25],
+        '3 Cookies': [25],
         'Vanilla Cone': [25]
       }
     },
     "Wendy's": {
       "Main": {
         "Chicken": {
-          'Chicken Sandwich': {
-            'Crispy': [25],
-            'Spicy': [25],
-            'Grilled': [25]
-          },
-          'Chicken Wrap': {
-            'Grilled': [25],
-            'Spicy': [25]
-          },
-          'Chicken Nuggets': {
-            'Regular': [25],
-            'Spicy': [25]
-          }
+          'Chicken Sandwich': [25],
+          'Crispy Chicken Wrap': [25],
+          'Chicken Nuggets': [25]
         },
         "Beef": {
           'Jr. Cheeseburger Deluxe': [25],
           'Jr. Bacon Cheeseburger': [25],
           'Double Stack': [25],
-          'Baconator': [25],
-          'Son of Baconator': [25],
           'Cheeseburger': [25],
           'Hamburger': [25]
         }
@@ -87,115 +67,56 @@ skillsdata = {
           'Garden': [25],
           'Caesar': [25]
         },
-        "Baked Potato": [25],
         'Chili': [25]
       },
       "Drinks": {
-        "Fountain Drink": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
-        "Tea": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
+        "Fountain Drink": [25],
+        "Tea": [25],
         "Other": {
           'Water': [25],
           'Coffee': [25]
         }
       },
-      "Deserts": {
+      "Desserts": {
         'Frosty': {
-          'Chocolate': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          },
-          'Vanilla': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          }
+          'Chocolate': [25],
+          'Vanilla': [25]
         }
       }
     },
     "Taco Bell": {
       "Main": {
         "Tacos": {
-          'Doritos Locos Taco': {
-            'Nacho Cheese': [25],
-            'Fiery': [25],
-            'Cool Ranch': [25]
-          },
-          'Soft Taco': {
-            'Grilled': [25],
-            'Spicy': [25]
-          },
-          'Crunchy Taco': {
-            'Beef': [25],
-            'Chicken': [25]
-          }
+          'Soft Taco': [25],
+          'Hard Taco': [25]
         },
         "Burritos": {
-          "Bean Burrito": [25],
-          'Chicken Burrito': [25],
-          'Beefy Nacho Burrito': [25],
-          'Loaded Potato Griller': [25]
+          "Cheesy Burrito": [25],
+          'Beefy Fritos Burrito': [25],
+          'Beefy Nacho Burrito': [25]
         },
         'Other': {
-          'Nachos Supreme': [25],
-          'Mexican Pizza': [25],
-          'Quesadilla': [25]
+          'Beefy Mini Quesadilla': [25],
+          'Chicken Mini Quesadilla': [25]
         }
       },
       "Sides": {
         "Chips & Cheese": [25],
-        "Chips & Pico de Gallo": [25],
-        "Chips & Guacamole": [25],
         'Chips & Salsa': [25],
         'Doritos': [25]
       },
       "Drinks": {
-        "Fountain Drink": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
-        "Tea": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
+        "Fountain Drink": [25],
+        "Tea": [25],
         "Other": {
           'Water': [25],
           'Coffee': [25]
         }
       },
-      "Deserts": {
-        'Freezes': {
-          'Airheads White Freeze': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          },
-          'Starburst Freeze': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          },
-          'Baja Blast': {
-            'Small': [25],
-            'Medium': [25],
-            'Large': [25]
-          }
-        },
-        'Other': {
+      "Desserts": {
           'Cinnabon Delights': [25],
           'Cinnamon Twist': [25],
           'Caramel Apple Empanada': [25]
-        }
       }
     },
     "Sonic": {
@@ -230,18 +151,8 @@ skillsdata = {
         'Onion Rings': [25]
       },
       "Drinks": {
-        "Fountain Drink": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25],
-          'Route 44': [25]
-        },
-        "Tea": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25],
-          'Route 44': [25]
-        },
+        "Fountain Drink": [25],
+        "Tea": [25],
         "Other": {
           'Limeade': [25],
           'Water': [25]
