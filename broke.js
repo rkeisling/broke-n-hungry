@@ -69,10 +69,10 @@ function i(a) {
         .style("fill", function (a) { return a._color }),
     d
         .append("svg:text")
-        .attr("x", r.w / 2 + 2)
+        .attr("x", 9)
         .attr("y", r.h / 2)
         .attr("dy", "0.35em")
-        .attr("text-anchor", "middle")
+        .attr("text-anchor", "left")
         .attr("class", "breadcumb-text")
         .style("fill", function (a) { return getcolor(d3.rgb(a._color)) < 150 ? "#fff" : "#000" })
         .text(function (a) { return a.key }),
@@ -196,10 +196,10 @@ var chart = function (d3) {
     rad = Math.min(width, height) / Math.PI - 25,
     q = k,
     r = {
-        w: 116,
+        w: 85,
         h: 30,
         s: 3,
-        t: 7
+        t: 5
     },
     sunburst = d3
         .select(".skills-sunburst")
