@@ -68,10 +68,9 @@ skillsdata = {
           }
         },
         "Beef": {
-          "Dave's Burger": {
-            'Single': [25],
-            'Double': [25]
-          },
+          'Jr. Cheeseburger Deluxe': [25],
+          'Jr. Bacon Cheeseburger': [25],
+          'Double Stack': [25],
           'Baconator': [25],
           'Son of Baconator': [25],
           'Cheeseburger': [25],
