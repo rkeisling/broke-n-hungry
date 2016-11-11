@@ -2,6 +2,8 @@ h1 {
   text-align: center;
   font-size: 500%;
   font-family: 'Rock Salt', cursive;
+  position: relative;
+  top: -65px;
 }
 body {
   font-family: 'Open Sans', sans-serif;
@@ -19,7 +21,7 @@ body {
 #skillmap .skills-sunburst {
   float: left;
   width: 500px;
-  margin-left: -80px;
+  margin-left: -25px;
 }
 #skillmap .skills-sunburst svg {
   font: 11px 'Source Sans Pro', sans-serif;
