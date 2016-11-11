@@ -140,34 +140,29 @@ skillsdata = {
             'Grilled': [25],
             'Spicy': [25]
           },
-          'Chicken Nuggets': {
-            'Regular': [25],
-            'Spicy': [25]
+          'Crunchy Taco': {
+            'Beef': [25],
+            'Chicken': [25]
           }
         },
-        "Beef": {
-          "Dave's Burger": {
-            'Single': [25],
-            'Double': [25]
-          },
-          'Baconator': [25],
-          'Son of Baconator': [25],
-          'Cheeseburger': [25],
-          'Hamburger': [25]
+        "Burritos": {
+          "Bean Burrito": [25],
+          'Chicken Burrito': [25],
+          'Beefy Nacho Burrito': [25],
+          'Loaded Potato Griller': [25]
+        },
+        'Other': {
+          'Nachos Supreme': [25],
+          'Mexican Pizza': [25],
+          'Quesadilla': [25]
         }
       },
       "Sides": {
-        "Fries": {
-          'Small': [25],
-          'Medium': [25],
-          'Large': [25]
-        },
-        "Side Salad": {
-          'Garden': [25],
-          'Caesar': [25]
-        },
-        "Baked Potato": [25],
-        'Chili': [25]
+        "Chips & Cheese": [25],
+        "Chips & Pico de Gallo": [25],
+        "Chips & Guacamole": [25],
+        'Chips & Salsa': [25],
+        'Doritos': [25]
       },
       "Drinks": {
         "Fountain Drink": {
@@ -186,17 +181,27 @@ skillsdata = {
         }
       },
       "Deserts": {
-        'Frosty': {
-          'Chocolate': {
+        'Freezes': {
+          'Airheads White Freeze': {
             'Small': [25],
             'Medium': [25],
             'Large': [25]
           },
-          'Vanilla': {
+          'Starburst Freeze': {
+            'Small': [25],
+            'Medium': [25],
+            'Large': [25]
+          },
+          'Baja Blast': {
             'Small': [25],
             'Medium': [25],
             'Large': [25]
           }
+        },
+        'Other': {
+          'Cinnabon Delights': [25],
+          'Cinnamon Twist': [25],
+          'Caramel Apple Empanada': [25]
         }
       }
     },
