@@ -14,6 +14,9 @@ body {
   height: 700px;
   margin-top: 10px;
 }
+#skills {
+  margin-top: -100px;
+}
 #skillmap .skills-wrapper {
   margin-top: 10px;
   overflow: auto;
@@ -37,6 +40,9 @@ body {
 #skillmap .skills-chart .breadcumb-text {
   font-size: 13px;
   font-weight: 700;
+}
+#skills-chart-breadcrumb {
+  margin-top: -65px;
 }
 #skillmap .skills-chart #skills-chart-line {
   fill: none;
