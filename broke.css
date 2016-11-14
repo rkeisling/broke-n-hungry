@@ -58,3 +58,33 @@ body {
   stroke-width: 1px;
   shape-rendering: geometricPrecision;
 }
+#menu {
+  outline-color: black;
+  outline-width: thin;
+  outline-style: solid;
+  margin: 10%;
+}
+#menu-des {
+  outline-color: black;
+  outline-width: thin;
+  outline-style: solid;
+  margin: 10%;
+}
+#api1 {
+  outline-color: black;
+  outline-width: thin;
+  outline-style: solid;
+  margin: 10%;
+}
+#api2 {
+  outline-color: black;
+  outline-width: thin;
+  outline-style: solid;
+  margin: 10%;
+}
+#expect {
+  outline-color: black;
+  outline-width: thin;
+  outline-style: solid;
+  margin: 10%;
+}
