@@ -45,12 +45,12 @@ skillsdata = {
       "Main": {
         "Chicken": {
           'Chicken Sandwich': [25],
-          'Crispy Chicken Wrap': [25],
+          'Chicken Wrap': [25],
           'Chicken Nuggets': [25]
         },
         "Beef": {
-          'Jr. Cheeseburger Deluxe': [25],
-          'Jr. Bacon Cheeseburger': [25],
+          'Jr. Burger Deluxe': [25],
+          'Jr. Bacon Burger': [25],
           'Double Stack': [25],
           'Cheeseburger': [25],
           'Hamburger': [25]
@@ -95,8 +95,8 @@ skillsdata = {
           'Beefy Nacho Burrito': [25]
         },
         'Other': {
-          'Beefy Mini Quesadilla': [25],
-          'Chicken Mini Quesadilla': [25]
+          'Beef Quesadilla': [25],
+          'Chicken Quesadilla': [25]
         }
       },
       "Sides": {
