@@ -42,7 +42,7 @@ body {
   font-weight: 700;
 }
 #skills-chart-breadcrumb {
-  margin-top: -65px;
+  margin-top: -615px;
 }
 #skillmap .skills-chart #skills-chart-line {
   fill: none;
@@ -64,12 +64,6 @@ body {
   outline-style: solid;
   margin: 10%;
 }
-#menu-des {
-  outline-color: black;
-  outline-width: thin;
-  outline-style: solid;
-  margin: 10%;
-}
 #api1 {
   outline-color: black;
   outline-width: thin;
@@ -82,7 +76,7 @@ body {
   outline-style: solid;
   margin: 10%;
 }
-#expect {
+#expected {
   outline-color: black;
   outline-width: thin;
   outline-style: solid;
