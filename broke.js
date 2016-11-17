@@ -74,7 +74,7 @@ function i(a) {
         .attr("dy", "0.35em")
         .attr("text-anchor", "left")
         .attr("class", "breadcumb-text")
-        .style("fill", function (a) { return getcolor(d3.rgb(a._color)) < 150 ? "#fff" : "#000" })
+        .style("fill", function (a) { return getcolor(d3.rgb(a._color)) < 150 ? "#000" : "#000" })
         .text(function (a) { return a.key }),
     c
         .attr("transform", function (a, b) { return "translate(" + b * (r.w + r.s) + ", 0)" }),
