@@ -22,7 +22,7 @@ body {
   overflow: auto;
 }
 #skillmap .skills-sunburst {
-  float: left;
+  /*float: left;*/
   width: 100%;
 }
 #skillmap .skills-sunburst svg {
@@ -41,8 +41,6 @@ body {
   font-weight: 700;
 }
 #skills-chart-breadcrumb {
-  float: right;
-  margin-top: -700px;
 }
 #skillmap .skills-chart #skills-chart-line {
   fill: none;
@@ -68,17 +66,17 @@ body {
   outline-color: black;
   outline-width: thin;
   outline-style: solid;
-  margin: 10%;
+  /*margin: 10%;*/
 }
 #api2 {
   outline-color: black;
   outline-width: thin;
   outline-style: solid;
-  margin: 10%;
+  /*margin: 10%;*/
 }
 #expected {
   outline-color: black;
   outline-width: thin;
   outline-style: solid;
-  margin: 10%;
+  /*margin: 10%;*/
 }
