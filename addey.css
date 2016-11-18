@@ -2,6 +2,11 @@
   margin: 0 0 0 0;
   width: 50%;
   height: 40px;
-  /*float: right;*/
+  float: right;
   position: relative;
+}
+
+#skills-chart-breadcrumb {
+  float: right;
+  margin-top: -700px;
 }
