@@ -279,3 +279,8 @@ sunburst
     .attr("r", rad / Math.PI)
     .attr("opacity", 0);
 initchart();
+
+d3
+    .selectAll("g")
+    .filter(function (d) { return d.children && d.children.length === 1; })
+    .on("click", function (d) { addToCart(d.key, d.value); } );
