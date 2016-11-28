@@ -279,6 +279,10 @@ sunburst
     .attr("r", rad / Math.PI)
     .attr("opacity", 0);
 initchart();
+function addToCart(item, price) {
+  var menu = document.getElementById('menu_two');
+  menu.innerText = item;
+}
 
 d3
     .selectAll("g")
