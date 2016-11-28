@@ -1,7 +1,7 @@
-#menu, #api1, #api2, #expected {
+#menu, #api1, #expected {
   margin: 0 0 0 0;
-  width: 50%;
-  height: 40px;
+  width: 20%;
+  height: 150px;
   float: right;
   position: relative;
 }
