@@ -61,16 +61,16 @@ body {
   outline-width: thin;
   outline-style: solid;
 }
-/*#api1 {
+#api1 {
   outline-color: black;
   outline-width: thin;
   outline-style: solid;
-}*/
-/*#api2 {
+}
+#api2 {
   outline-color: black;
   outline-width: thin;
   outline-style: solid;
-}*/
+}
 #expected {
   outline-color: black;
   outline-width: thin;
