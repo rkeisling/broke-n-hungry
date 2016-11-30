@@ -282,6 +282,8 @@ initchart();
 function addToCart(item, price) {
   var menu = document.getElementById('menu_two');
   menu.innerText = item;
+  price = (price/10).toFixed(2)
+  api1.innerText = '$' + price;
 }
 
 d3
