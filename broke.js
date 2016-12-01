@@ -288,12 +288,16 @@ String.prototype.format = function() {
    }
    return content;
 };
+function getID(item) {
+  return items[item];
+}
 function addToCart(item, price) {
   var menu = document.getElementById('menu_two');
   menu.innerText = item;
   price = (price/10).toFixed(2)
   api1.innerText = '$' + price;
-  var info = httpGet('https://api.nutritionix.com/v1_1/item?id={0}&appId=44e5c8b1&appKey=95bba8a8ce5d8e825b701ebd9edd965a'.format('513fc993927da70408001aaa'));
+  console.log(item);
+  var info = httpGet('https://api.nutritionix.com/v1_1/item?id={0}&appId=44e5c8b1&appKey=95bba8a8ce5d8e825b701ebd9edd965a'.format(getID(item)));
   console.log(info);
 }
 
