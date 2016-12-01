@@ -20,20 +20,16 @@ skillsdata = {
         }
       },
       "Sides": {
-        "Fries": {
-          'Small': [14],
-          'Medium': [18],
-          'Large': [19]
-        },
+        "Fries": [18],
       },
       "Drinks": {
         "Fountain Drink": [12],
         "Tea": [10],
         "Other": {
-          'Bottled Water': [10],
+          'Water': [10],
           'Apple Juice': [12],
           'McCafe': [10],
-          'Chocolate Milk': [12]
+          'Milk': [12]
         }
       },
       "Deserts": {
@@ -57,11 +53,7 @@ skillsdata = {
         }
       },
       "Sides": {
-        "Fries": {
-          'Small': [17],
-          'Medium': [20],
-          'Large': [22]
-        },
+        "Natural-Cut Fries": [20],
         "Side Salad": {
           'Garden': [15],
           'Caesar': [15]
@@ -70,7 +62,7 @@ skillsdata = {
       },
       "Drinks": {
         "Fountain Drink": [19],
-        "Tea": [19],
+        "Sweet Tea": [19],
         "Other": {
           'Water': [10],
           'Coffee': [10]
@@ -91,8 +83,7 @@ skillsdata = {
         },
         "Burritos": {
           "Cheesy Burrito": [10],
-          'Beefy Fritos Burrito': [10],
-          'Beefy Nacho Burrito': [10]
+          'Beefy Fritos Burrito': [10]
         },
         'Other': {
           'Beef Quesadilla': [10],
@@ -137,8 +128,8 @@ skillsdata = {
       },
       "Sides": {
         "Tots": {
-          'Regular': [12],
-          'Chilli Cheese': [23]
+          'Regular Tots': [12],
+          'Chilli Cheese Tots': [23]
         },
         "Fries": {
           'Regular': [12],
