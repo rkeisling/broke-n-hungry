@@ -4,6 +4,8 @@
   height: 150px;
   float: right;
   position: relative;
+  font-size: 250%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 #skills-chart-breadcrumb {
