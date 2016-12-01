@@ -7,7 +7,7 @@ skillsdata = {
         "Chicken": {
           'McChicken': [10],
           '4Pc. Nuggets': [20],
-          '20Pc. Nuggets': [40]
+          '20Pc. Nuggets': [50]
         },
         "Beef": {
           'McDouble': [12],

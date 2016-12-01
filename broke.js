@@ -279,14 +279,31 @@ sunburst
     .attr("r", rad / Math.PI)
     .attr("opacity", 0);
 initchart();
+String.prototype.format = function() {
+   var content = this;
+   for (var i=0; i < arguments.length; i++)
+   {
+        var replacement = '{' + i + '}';
+        content = content.replace(replacement, arguments[i]);
+   }
+   return content;
+};
 function addToCart(item, price) {
   var menu = document.getElementById('menu_two');
   menu.innerText = item;
   price = (price/10).toFixed(2)
   api1.innerText = '$' + price;
+  var info = httpGet('https://api.nutritionix.com/v1_1/item?id={0}&appId=44e5c8b1&appKey=95bba8a8ce5d8e825b701ebd9edd965a'.format('513fc993927da70408001aaa'));
+  console.log(info);
 }
 
 d3
     .selectAll("g")
     .filter(function (d) { return d.children && d.children.length === 1; })
     .on("click", function (d) { addToCart(d.key, d.value); } );
+function httpGet(theUrl) {
+  var xmlHttp = new XMLHttpRequest();
+  xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+  xmlHttp.send( null );
+  return xmlHttp.responseText;
+}
