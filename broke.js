@@ -1,3 +1,5 @@
+var info;
+
 function initchart() {
     var data = {
         _proficiency: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
@@ -290,24 +292,40 @@ String.prototype.format = function() {
 };
 function getID(item) {
   return items[item];
-}
+};
 function addToCart(item, price) {
   var menu = document.getElementById('menu_two');
   menu.innerText = item;
   price = (price/10).toFixed(2)
   api1.innerText = '$' + price;
-  console.log(item);
-  var info = httpGet('https://api.nutritionix.com/v1_1/item?id={0}&appId=44e5c8b1&appKey=95bba8a8ce5d8e825b701ebd9edd965a'.format(getID(item)));
-  console.log(info);
-}
+  $.getJSON('https://api.nutritionix.com/v1_1/item?id={0}&appId=44e5c8b1&appKey=95bba8a8ce5d8e825b701ebd9edd965a'.format(getID(item)))
+   .done(function (info) {
+      console.log(info)
+      $('#expected').nutritionLabel({
+        'itemName': info.item_name,
+      	'showPolyFat' : false,
+      	'showMonoFat' : false,
+
+      	'valueCalories' : info.nf_calories,
+      	'valueFatCalories' : info.nf_calories_from_fat,
+      	'valueTotalFat' : info.nf_total_fat,
+      	'valueSatFat' : info.nf_saturated_fat,
+      	'valueTransFat' : info.nf_trans_fatty_acid,
+      	'valueCholesterol' : info.nf_cholesterol,
+      	'valueSodium' : info.nf_sodium,
+      	'valueTotalCarb' : info.nf_total_carbohydrate,
+      	'valueFibers' : info.nf_dietary_fiber,
+      	'valueSugars' : info.nf_sugars,
+      	'valueProteins' : info.nf_protein,
+      	'valueVitaminA' : info.nf_vitamin_a_dv,
+      	'valueVitaminC' : info.nf_vitamin_c_dv,
+      	'valueCalcium' : info.nf_calcium_dv,
+      	'valueIron' : info.nf_iron_dv
+      });
+    });
+};
 
 d3
     .selectAll("g")
     .filter(function (d) { return d.children && d.children.length === 1; })
     .on("click", function (d) { addToCart(d.key, d.value); } );
-function httpGet(theUrl) {
-  var xmlHttp = new XMLHttpRequest();
-  xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-  xmlHttp.send( null );
-  return xmlHttp.responseText;
-}
