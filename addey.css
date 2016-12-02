@@ -1,15 +1,16 @@
 #menu, #api1 {
   margin: 0 0 0 0;
   width: 20%;
-  height: 150px;
+  height: 45px;
   float: right;
   position: relative;
-  font-size: 250%;
+  font-size: 195%;
+  font-weight: bold;
   font-family: 'Quicksand', sans-serif;
 }
 
 #expected {
-  font-size: 100%;
+  font-size: 125%;
 }
 
 #skills-chart-breadcrumb {
