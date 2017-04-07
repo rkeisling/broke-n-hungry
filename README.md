@@ -1,1 +1,1 @@
-broke-n-hungry
+This project was a practice for using an API to retrieve information for a site and was made with a team of two others. I used the Nutritionix API to retrieve nutritional information about a selected item on the site. The webpage includes items under $5 from four popular fast food places. 
